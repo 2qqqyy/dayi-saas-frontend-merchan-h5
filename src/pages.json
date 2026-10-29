@@ -1,0 +1,238 @@
+{
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/order/index",
+      "style": {
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/statistics/index",
+      "style": {
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/message/index",
+      "style": {
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/user/index",
+      "style": {
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/picking/index",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "采摘场次"
+      }
+    },
+    {
+      "path": "pages/picking/create",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "新增场次"
+      }
+    },
+    {
+      "path": "pages/picking/edit",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "编辑场次"
+      }
+    },
+    {
+      "path": "pages/picking/detail",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "场次详情"
+      }
+    },
+    {
+      "path": "pages/homestay/index",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "房间管理"
+      }
+    },
+    {
+      "path": "pages/homestay/room",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "房间详情"
+      }
+    },
+    {
+      "path": "pages/homestay/room-edit",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "编辑房间"
+      }
+    },
+    {
+      "path": "pages/homestay/calendar",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "库存日历"
+      }
+    },
+    {
+      "path": "pages/product/index",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "商品管理"
+      }
+    },
+    {
+      "path": "pages/product/create",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "新增商品"
+      }
+    },
+    {
+      "path": "pages/product/edit",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "编辑商品"
+      }
+    },
+    {
+      "path": "pages/product/inventory",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "库存管理"
+      }
+    },
+    {
+      "path": "pages/order/detail",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "订单详情"
+      }
+    },
+    {
+      "path": "pages/order/verify",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "订单核销"
+      }
+    },
+    {
+      "path": "pages/settlement/index",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "结算中心"
+      }
+    },
+    {
+      "path": "pages/settlement/withdraw",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "申请提现"
+      }
+    },
+    {
+      "path": "pages/user/login",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "商家登录"
+      }
+    },
+    {
+      "path": "pages/user/profile",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "商家资料"
+      }
+    },
+    {
+      "path": "pages/user/settings",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "设置"
+      }
+    },
+    {
+      "path": "pages/user/display",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "外观"
+      }
+    },
+    {
+      "path": "pages/user/qualification",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "资质与审核"
+      }
+    },
+    {
+      "path": "pages/common/error",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "页面不存在"
+      }
+    },
+    {
+      "path": "pages/ticket/index",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "售后工单"
+      }
+    },
+    {
+      "path": "pages/ticket/detail",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "工单详情"
+      }
+    },
+    {
+      "path": "pages/review/index",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "游客评价"
+      }
+    },
+    {
+      "path": "pages/notice/index",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "平台公告"
+      }
+    },
+    {
+      "path": "pages/notice/detail",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "公告详情"
+      }
+    },
+    {
+      "path": "pages/user/apply",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "申请入驻"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "青梅里商家端",
+    "navigationBarBackgroundColor": "#12291E",
+    "backgroundColor": "#0E1712",
+    "backgroundColorTop": "#0E1712",
+    "backgroundColorBottom": "#0E1712"
+  }
+}

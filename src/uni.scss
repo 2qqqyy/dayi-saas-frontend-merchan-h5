@@ -1,0 +1,132 @@
+/**
+ * uni-app 内置样式变量（保留兼容）
+ */
+$uni-color-primary: var(--qm-primary, #2f5d43);
+$uni-color-success: var(--qm-success, #3f6b4c);
+$uni-color-warning: var(--qm-warning, #a97a2c);
+$uni-color-error: var(--qm-danger, #a8422f);
+
+$uni-text-color: var(--qm-ink, #1b241d);
+$uni-text-color-inverse: #fff;
+$uni-text-color-grey: var(--qm-text-mute, #8a938b);
+$uni-text-color-placeholder: var(--qm-text-mute, #8a938b);
+$uni-text-color-disable: #c0c0c0;
+
+$uni-bg-color: var(--qm-surface, #ffffff);
+$uni-bg-color-grey: var(--qm-soft-2, #f1f5ef);
+$uni-bg-color-hover: #f1f1f1;
+$uni-bg-color-mask: rgba(8, 18, 12, 0.55);
+
+$uni-border-color: var(--qm-disabled, #d7d9d8);
+
+$uni-font-size-sm: 12px;
+$uni-font-size-base: 14px;
+$uni-font-size-lg: 16px;
+
+$uni-border-radius-sm: 4px;
+$uni-border-radius-base: 8px;
+$uni-border-radius-lg: 12px;
+$uni-border-radius-circle: 50%;
+
+$uni-spacing-row-sm: 8rpx;
+$uni-spacing-row-base: 16rpx;
+$uni-spacing-row-lg: 24rpx;
+$uni-spacing-col-sm: 8rpx;
+$uni-spacing-col-base: 16rpx;
+$uni-spacing-col-lg: 24rpx;
+
+$uni-opacity-disabled: 0.3;
+
+/* ===== 青梅里 · 山野志（v2 视觉系统） =====
+ * 白纸底 + 墨色字 + 宋体大标题 + 摄影主导；绿只做点缀，不做大面积底色。
+ */
+$cream: var(--qm-cream, #fbfbf9);
+$paper: var(--qm-paper, #ffffff);
+$surface: var(--qm-surface, #ffffff);
+$ink: var(--qm-ink, #1b241d);
+$ink-soft: var(--qm-ink-soft, #1e2326);
+$green: var(--qm-primary, #2f5d43);
+$green-dark: var(--qm-deep, #1d3f2e);
+$green-light: var(--qm-light, #7a9c86);
+$green-bg: var(--qm-soft, #eaf0ec);
+$green-soft: var(--qm-soft-2, #f3f6f4);
+$lime: var(--qm-accent, #c9db9a);
+$price: var(--qm-price, #b4552f);
+$warning: var(--qm-warning, #a97a2c);
+$warning-bg: var(--qm-warning-bg, #f6ecd6);
+$danger: var(--qm-danger, #a8422f);
+$danger-bg: var(--qm-danger-bg, #f5e3dd);
+$success: var(--qm-success, #3f6b4c);
+$success-bg: var(--qm-success-bg, rgba(63, 107, 76, 0.12));
+$info: var(--qm-info, #6b7268);
+$info-bg: var(--qm-info-bg, #eeeadf);
+$text-main: var(--qm-text-main, #1b241d);
+$text-sub: var(--qm-text-sub, #5c665e);
+$text-mute: var(--qm-text-mute, #8a938b);
+$line: var(--qm-line, rgba(27, 36, 29, 0.1));
+$line-2: var(--qm-line-2, rgba(27, 36, 29, 0.06));
+$line-strong: var(--qm-line-strong, rgba(27, 36, 29, 0.18));
+$border: var(--qm-border, rgba(27, 36, 29, 0.1));
+$disabled: var(--qm-disabled, #d7d9d8);
+$img-bg: var(--qm-img-bg, #efefec);
+$yellow: var(--qm-yellow, #cdb98a);
+$yellow-deep: var(--qm-yellow-deep, #57462a);
+$yellow-soft: var(--qm-yellow-soft, #f6f1e6);
+$brown: var(--qm-brown, #7a6a55);
+$brown-soft: var(--qm-brown-soft, #f1ede6);
+$bg: var(--qm-bg, #fbfbf9);
+
+/* 标题用宋体，正文用系统无衬线 */
+$font-serif: "Songti SC", "STSong", "Noto Serif CJK SC", "Source Han Serif SC", serif;
+
+/* 字号 */
+$font-xs: 20rpx;
+$font-sm: 23rpx;
+$font-md: 28rpx;
+$font-lg: 32rpx;
+$font-xl: 38rpx;
+$font-2xl: 44rpx;
+$font-3xl: 56rpx;
+$font-4xl: 64rpx;
+
+/* 圆角：克制，不做大圆角糖果感 */
+$radius-xs: 6rpx;
+$radius-sm: 10rpx;
+$radius-md: 14rpx;
+$radius-lg: 20rpx;
+$radius-xl: 28rpx;
+
+/* 间距 */
+$space-xs: 12rpx;
+$space-sm: 16rpx;
+$space-md: 24rpx;
+$space-lg: 32rpx;
+$space-xl: 48rpx;
+$space-2xl: 72rpx;
+
+$card-pad: 28rpx;
+$list-gap: 20rpx;
+$img-sm: 112rpx;
+$img-md: 160rpx;
+$img-lg: 200rpx;
+
+$shadow-float: 0 12rpx 40rpx rgba(27, 36, 29, 0.08);
+$shadow-card: 0 2rpx 12rpx rgba(27, 36, 29, 0.04);
+$ease: cubic-bezier(0.22, 1, 0.36, 1);
+
+
+/* ===== Liquid Glass 材质梯度 ===== */
+$glass-1: var(--qm-glass-1, rgba(255, 255, 255, 0.58));
+$glass-2: var(--qm-glass-2, rgba(255, 255, 255, 0.42));
+$glass-3: var(--qm-glass-3, rgba(255, 255, 255, 0.72));
+$glass-dark: var(--qm-glass-dark, rgba(16, 36, 26, 0.62));
+$glass-edge: var(--qm-glass-edge, rgba(255, 255, 255, 0.72));
+$glass-edge-soft: var(--qm-glass-edge-soft, rgba(255, 255, 255, 0.42));
+$glass-blur: 34rpx;
+$glass-shadow: 0 24rpx 64rpx -34rpx rgba(16, 36, 26, 0.45), inset 0 2rpx 0 rgba(255, 255, 255, 0.7);
+$glass-shadow-lg: 0 34rpx 90rpx -40rpx rgba(16, 36, 26, 0.55), inset 0 2rpx 0 rgba(255, 255, 255, 0.75);
+$canvas-a: var(--qm-canvas-a, #e7efe4);
+$canvas-b: var(--qm-canvas-b, #dfe9e6);
+$canvas-c: var(--qm-canvas-c, #f2ede1);
+
+$app-max-width: 480px;
